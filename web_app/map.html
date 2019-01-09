@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Example" />
+		<meta name="keywords" content="Maps, Leaflet API" />
+		<meta name="author" content="David Bailey" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--import CSS -->
+		<link rel="stylesheet" type="text/css" href="css/leaflet.css">
+		<link rel="icon" type="image/png" href="icons/favicons/favicon1.png" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,300' rel='stylesheet' type='text/css'>
+		<link href='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/leaflet.fullscreen.css' rel='stylesheet' />
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+		<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/leaflet_draw.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+		<!--import JavaScript -->
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="https://unpkg.com/leaflet@1.0.0/dist/leaflet.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+		<script src='http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.2/Leaflet.fullscreen.min.js'></script>
+		<script src="http://rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/src/L.Control.Locate.js" ></script>
+		<script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/0.0.1-beta.5/esri-leaflet-core.js" ></script>
+		<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+		<script src='https://cdn.jsdelivr.net/npm/leaflet-wfst@2.0.1-beta.21/dist/leaflet-wfst.src.min.js'></script>
+		<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+		<!-- connect your html file to an external JavaScript -->
+		<script type="text/javascript" src="js/leaflet.draw.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body{
+			height: 100%;
+			width: 100%;
+		}
+
+		#myMap{
+		  position: absolute;
+		  top: 50px;
+		  bottom: 0;
+		  width: 100%;
+    }
+	</style>
+
+		<title>Wildlife Sightings Map</title>
+	</head>
+
+
+	<body>
+
+		<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+				<a class="navbar-brand" href=""><strong>Wildlife Sightings Map</strong></a>
+
+				<div class="nav-collapse">
+				<ul class="nav navbar-nav pull-right">
+
+					<li class="" <li/> <a href="login.php">Login</a></li>
+					<!--<li><a class="" href="registration.php">Create Account</a></li>-->
+
+				</div>
+			</nav>
+	</div>
+	</body>
+
+ <!-- Row 2 -->
+	<body>
+
+			<div id="myMap">
+		 </div>
+
+
+	</body>
+</html>
